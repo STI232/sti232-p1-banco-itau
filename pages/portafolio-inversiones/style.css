@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    margin-top: 120px;
+}
+
+.portafolio-inversiones {
+    background-color: white;
+    padding: 5% 12%;
+}
+
+.portafolio-inversiones h1 {
+    font-family: 'SF Pro Display';
+    font-weight: 700;
+    color: #EC7404;
+}
+.tab-bar {
+    background-color: white;
+    margin-top: 2%;
+    display: flex;
+}
+
+.tab-button {
+    background-color: transparent;
+    border: none;
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+    font-family: 'SF Pro Display';
+    font-weight: 500;
+    font-size: 16px;
+    filter: saturate(0);
+}
+
+.port-img {
+    margin-right: 5px;
+}
+
+.active {
+    border: 2px solid #EC7404;
+    filter: none;
+    color: #EC7404;
+    padding: 10px 15px;
+    border-radius: 30px;
+}
+
+.content {
+    background-color: white;
+    padding: 5% 12%;
+    padding-top: 0;
+}
+
+#tab-button ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
+#individual img {
+    padding: 5%;
+    border: 1px solid #EC7404;
+    margin-bottom: 5%;
+    border-radius: 20px;
+    width: 90%;
+}
+
+#individual ul {
+    display: flex;
+}
+
+#individual ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'SF Pro Display';
+    border-left: 1px solid #EC7404;
+    padding: 2% 5%;
+}
+
+#individual ul li p{
+    margin-bottom: 10px;
+}
+
+.compartida-stadistics img {
+    padding: 5%;
+    border: 1px solid #EC7404;
+    margin-bottom: 5%;
+    border-radius: 20px;
+    width: 95%;
+}
+
+.compartida-stadistics ul {
+    display: flex;
+    width: 85%;
+}
+
+.compartida-stadistics ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'SF Pro Display';
+    border-left: 1px solid #EC7404;
+    padding: 2% 5%;
+    width: 100%;
+}
+.compartida-stadistics ul li {
+    margin-bottom: 10px;
+}
+
+.portfolio-stadistics {
+    display: flex;
+}
+
+.portfolio-stadistics-left {
+    width: 100%;
+    margin-right: 5%;
+}
+
+.portfolio-stadistics-right {
+    background-color: #252322;
+    color: white;
+    font-family: 'SF Pro Display';
+    width: 50%;
+    padding: 3%;
+    border-radius: 20px;
+}
+
+.portfolio-stadistics-right h1 {
+    font-size: 30px;
+    padding: 5% 0%;
+}
+
+.portfolio-stadistics-right ul {
+    list-style: none;
+}
+
+.portfolio-stadistics-right ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 0%;
+}
+
+.compartida-members {
+    display: flex;
+}
+
+.compartida-members div {
+    border: 1px solid #EC7404;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4%;
+    margin: 4% 1%;
+    width: auto;
+    text-align: center;
+    font-family: 'SF Pro Display';
+}
+
+.compartida-members div img {
+    width: 80px;
+}
+
+table {
+    width: 100%;
+    margin: 20px auto;
+    background: var(--Gradient, linear-gradient(99deg, #EC7404 5.95%, rgba(255, 152, 56, 0.85) 98.06%));
+    padding: 5%;
+    border-radius: 20px;
+}
+
+th, td {
+    border-bottom: 1px solid white;
+    padding: 8px;
+    text-align: left;
+    font-family: 'SF Pro Display';
+    color: white;
+}
+
+.user-tab {
+    width: 30px;
+}
+
+.user-tabla {
+    font-family: 'SF Pro Display';
+    margin-top: 40px;
+}
+
+.user-tabla h2 {
+    color: #EC7404;
+    font-size: 25px;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../../src/fonts/SF-Pro-Display-Regular.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../../src/fonts/SF-Pro-Display-Semibold.ttf') format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../../src/fonts/SF-Pro-Display-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../../src/fonts/SF-Pro-Display-Heavy.ttf') format('truetype');
+    font-weight: 800;
+}

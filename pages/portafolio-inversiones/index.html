@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Inversiones</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <top-bar></top-bar>
+    <header-component></header-component>
+    <div class="portafolio-inversiones">
+        <h1>Portafolio de inversiones</h1>
+        <div class="tab-bar">
+            <button class="tab-button" data-tab="individual"><img class="port-img" src="../../src/public/icons/individual.svg" alt="">Individual</button>
+            <button class="tab-button" data-tab="compartida"><img class="port-img" src="../../src/public/icons/compartida.svg" alt="">Compartida</button>
+            <button class="tab-button" data-tab="cdt"><img class="port-img" src="../../src/public/icons/cdt.svg" alt="">CDT</button>
+        </div>
+    </div>
+
+
+
+    <section class="content">
+        <div class="tab-content" id="individual" class="individual">
+            <img src="../../src/public/icons/portafolio-inversiones-graphic.svg" alt="">
+            <ul>
+                <li>
+                    <p>Total invertido</p>
+                    <div>
+                        <h2>15M+</h2>
+                        <p>COP</p>
+                    </div>
+                </li>
+                <li>
+                    <p>Rentabilidad Histórica</p>
+                    <div>
+                        <h2>12% YTD</h2>
+                        <p>Anual</p>
+                    </div>
+                </li>
+                <li>
+                    <p>Tasa de Morosidad</p>
+                    <div>
+                        <h2>0.0%</h2>
+                        <p>Todo el tiempo</p>
+                    </div>
+                </li>
+                <li>
+                    <p>ïndice de Gastos</p>
+                    <div>
+                        <h2>0.5%</h2>
+                        <p>Anual</p>
+                    </div>
+                </li>
+                <li style="border-right: 1px solid #EC7404;">
+                    <p>Exposición</p>
+                    <div>
+                        <h2>3</h2>
+                        <p>Regiones</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="tab-content" id="compartida" style="display: none;">
+            <nav class="portfolio-stadistics">
+                <div class="portfolio-stadistics-left">
+                    <div class="compartida-members">
+                        <div>
+                            <img src="../../src/public/icons/compartida-plus.svg" alt="">
+                            <p>Invitar</p>
+                        </div>
+                        <div>
+                            <img src="../../src/public/images/compartida-profile-1.webp" alt="">
+                            <p>Camilo Murillo</p>
+                        </div>
+                        <div>
+                            <img src="../../src/public/images/compartida-profile-2.webp" alt="">
+                            <p>Danna Díaz</p>
+                        </div>
+                        <div>
+                            <img src="../../src/public/images/compartida-profile-3.webp" alt="">
+                            <p>Sofía Restrepo</p>
+                        </div>
+                    </div>
+                    <div class="compartida-stadistics">
+                        <img src="../../src/public/icons/portafolio-inversiones-graphic.svg" alt="">
+                        <ul>
+                            <li>
+                                <p>Total invertido</p>
+                                <div>
+                                    <h2>15M+</h2>
+                                    <p>COP</p>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Rentabilidad Histórica</p>
+                                <div>
+                                    <h2>12% YTD</h2>
+                                    <p>Anual</p>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Tasa de Morosidad</p>
+                                <div>
+                                    <h2>0.0%</h2>
+                                    <p>Todo el tiempo</p>
+                                </div>
+                            </li>
+                            <li>
+                                <p>ïndice de Gastos</p>
+                                <div>
+                                    <h2>0.5%</h2>
+                                    <p>Anual</p>
+                                </div>
+                            </li>
+                            <li style="border-right: 1px solid #EC7404;">
+                                <p>Exposición</p>
+                                <div>
+                                    <h2>3</h2>
+                                    <p>Regiones</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="portfolio-stadistics-right">
+                    <p>Información</p>
+                    <hr>
+                    <h1>Estadísticas</h1>
+                    <ul>
+                        <li>
+                            <p>Último Cierre</p>
+                            <p>$1,800</p>
+                        </li>
+                        <hr>
+                        <li>
+                            <p>Precio de apertura</p>
+                            <p>$1,860</p>
+                        </li>
+                        <hr>
+                        <li>
+                            <p>24H Returns %</p>
+                            <p style="color: green;">▴ 2.35%</p>
+                        </li>
+                        <hr>
+                        <li>
+                            <p>Precio Estándar</p>
+                            <p>$1,923</p>
+                        </li>
+                        <hr>
+                        <li>
+                            <p>Predicción Próximas 24H</p>
+                            <p style="color: red;">▾ 1.20%</p>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <nav class="user-tabla">
+                <h2>Últimas actualizaciones</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Fecha</th>
+                            <th>Orden</th>
+                            <th>Cantidad</th>
+                            <th>Descripción</th>
+                            <th>Usuario</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Agosto 23, 2023</td>
+                            <td>CHASLEY111</td>
+                            <td>$1'670.000 COP</td>
+                            <td>Producción del mes pal paseito</td>
+                            <td><img class="user-tab" src="../../src/public/images/compartida-profile-1.webp" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>Agosto 08, 2023</td>
+                            <td>CHASLEY110</td>
+                            <td>$1'000.000 COP</td>
+                            <td>Si señores, sí se pudo</td>
+                            <td><img class="user-tab" src="../../src/public/images/compartida-profile-2.webp" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>Julio 17, 2023</td>
+                            <td>CHASLEY109</td>
+                            <td>$900.000 COP</td>
+                            <td>Team chamba</td>
+                            <td><img class="user-tab" src="../../src/public/images/compartida-profile-3.webp" alt=""></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </nav>
+
+        </div>
+        <div class="tab-content" id="cdt" style="display: none;">
+            
+        </div>
+    </section>
+
+
+    <footer-component></footer-component>
+    <script src="./portafolio.js"></script>
+    <script type="module" src="../../components/top-bar/top-bar.js"></script>
+    <script type="module" src="../../components/header-component/header.js"></script>
+    <script type="module" src="../../components/footer-component/footer.js"></script>
+</body>
+</html>

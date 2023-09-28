@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    margin-top: 120px;
+}
+
+.log-in {
+    background-color: white;
+    padding: 20% 12%;
+}
+
+.log-in-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 40px;
+}
+
+.log-in h2 {
+    color: #EC7404;
+    font-family: 'SF Pro Display';
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.log-in p {
+    font-family: 'SF Pro Display';
+}
+
+.log-in-form div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15%;
+    margin-bottom: 3%;
+}
+
+.log-in-form div label {
+    font-family: 'SF Pro Display';
+    margin-bottom: 5px;
+}
+
+.log-in-form div input{
+    border: 1px solid #EC7404;
+    padding: 12px;
+    border-radius: 15px;
+}
+
+.log-in-form div select {
+    border: 1px solid #EC7404;
+    padding: 12px;
+    border-radius: 15px;
+    font-family: 'SF Pro Display';
+}
+
+.siguiente {
+    background-color: #EC7404;
+    border: none;
+    color: white;
+    font-family: 'SF Pro Display';
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 30%;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.siguiente:hover {
+    background-color: #9e4f05;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../../src/fonts/SF-Pro-Display-Regular.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../../src/fonts/SF-Pro-Display-Semibold.ttf') format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../../src/fonts/SF-Pro-Display-Bold.ttf') format('truetype');
+    font-weight: 700;
+}

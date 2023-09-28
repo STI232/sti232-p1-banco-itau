@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.top-bar {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.top-bar li {
+    padding: 10px 1%;
+    list-style: none;
+}
+
+.top-bar li a {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    margin: 0 8%;
+}
+
+.top-bar li a img {
+    margin-right: 8%;
+}
+
+.investment-option {
+    color: #EC7404;
+    border: 2px solid #EC7404;
+    padding: 5px 10px;
+    padding-right: 40px;
+    border-radius: 20px;
+}
+
+.top-bar li a p {
+    font-family: 'SF Pro Display', sans-serif;
+    color: black;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../../fonts/SF-Pro-Display-Regular.ttf') format('truetype');
+  }

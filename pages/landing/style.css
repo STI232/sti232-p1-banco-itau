@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin-top: 120px;
+}
+
+.landing-banner{
+ background-image: url('../../src/public/images/landing-banner-bg.webp');
+ background-size: cover;
+ background-color: center;
+ width: auto;
+ padding-top: 38%;
+}
+
+.landing-banner div{
+    position: absolute;
+    top: 25%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 12%;
+    margin-top: 2%;
+}
+
+.landing-banner div h2 {
+    font-family: 'SF Pro Display';
+    font-weight: 700;
+    font-size: 40px;
+    width: 50%;
+    margin-bottom: 1%;
+}
+
+.landing-banner div p {
+    font-family: 'SF Pro Display';
+    font-weight: 500;
+    font-size: 20px;
+    width: 40%;
+    margin-bottom: 1%;
+}
+
+.landing-banner div a {
+    background-color: #EC7404;
+    color: white;
+    text-decoration: none;
+    width: 110px;
+    padding: 15px 25px;
+    padding-left: 30px;
+    font-family: 'SF Pro Display';
+    font-weight: 700;
+    border-radius: 40px;
+}
+
+.inversion-colaborativa {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 100%;
+    padding: 12%;
+    background: var(--Gradient, linear-gradient(99deg, #EC7404 5.95%, rgba(255, 152, 56, 0.85) 98.06%));
+}
+
+.inversion-colaborativa h2 {
+    font-family: 'SF Pro Display';
+    font-weight: 700;
+    font-size: 40px;
+    width: 80%;
+    margin-bottom: 1%;
+    margin-top: 5%;
+    color: white;
+
+}
+
+.inversion-colaborativa p {
+    font-family: 'SF Pro Display';
+    font-weight: 500;
+    font-size: 18px;
+    width: 69%;
+    margin-bottom: 1%;
+    color: white;
+}
+
+.inversion-colaborativa a {
+    background-color: white;
+    color: #EC7404;
+    text-decoration: none;
+    width: 110px;
+    padding: 15px 25px;
+    padding-left: 30px;
+    font-family: 'SF Pro Display';
+    font-weight: 700;
+    border-radius: 40px;
+    margin-bottom: 5%;
+}
+
+.confiable {
+    background-image: url('../../src/public/images/banner-confiable-bg.webp');
+    background-size: cover;
+    background-color: center;
+    padding: 20% 12%;
+    width: auto;
+}
+
+.confiable div h2{
+    font-family: 'SF Pro Display';
+    font-weight: 700;
+    font-size: 40px;
+    color: black;
+    margin-bottom: 3%;
+}
+
+.confiable div p {
+    font-family: 'SF Pro Display';
+    font-weight: 500;
+    font-size: 18px;
+    width: 40%;
+    margin-bottom: 5%;
+    color: black;
+}
+.confiable-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.confiable-options div {
+    border: 2px solid black;
+    padding: 2% 8%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.confiable-options div h3 {
+    font-family: 'SF Pro Display';
+    font-weight: 700;
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../../src/fonts/SF-Pro-Display-Regular.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../../src/fonts/SF-Pro-Display-Semibold.ttf') format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('../../src/fonts/SF-Pro-Display-Bold.ttf') format('truetype');
+    font-weight: 700;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <top-bar></top-bar>
+    <header-component></header-component>
+
+    <section class="log-in">
+        <h2>Regístrate en el portal de inversiones</h2>
+
+        <p>Completa tus datos para crear tu usuario y clave con los
+            cuales podrás ingresar a tus canales digitales.
+        </p>
+        <div class="log-in-form">
+            <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" required>
+            </div>
+
+            <div>
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" required>
+            </div>
+            
+            <div>
+                <label for="tipoDocumento">Tipo de documento</label>
+                <select name="tipoDocumento" id="tipoDocumento" required>
+                    <option value="CC">CC</option>
+                    <option value="TI">TI</option>
+                    <option value="Pasaporte">Pasaporte</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="numeroDocumento">Número de documento</label>
+                <input type="text" id="numeroDocumento" name="numeroDocumento" required>
+            </div>
+
+            <input class="siguiente" type="submit" value="Siguiente">
+        </div>
+
+    </section>
+
+
+    <footer-component></footer-component>
+
+
+
+    <script type="module" src="../../components/top-bar/top-bar.js"></script>
+    <script type="module" src="../../components/header-component/header.js"></script>
+    <script type="module" src="../../components/footer-component/footer.js"></script>
+    
+</body>
+</html>
